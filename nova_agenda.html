@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../Bootstrap/bootstrap.css">
+    <!--FontesAwesome-->
+    <link rel="stylesheet" href="../fontawesome-free-6.1.1-web/css/all.css">
+    <title>Nova Agenda</title>
+</head>
+<body class="body">
+    <header><!--Inicio do cabeçalho-->
+        <nav class="navbar navbar-expand-md navbar-light bg-teal">
+            <div class="container">              
+              <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+              <div class="collapse navbar-collapse" id="nav-principal">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">                        
+                          <a href="" class="nav-link" style="color: black; font-size: 20px;">Agenda</a>
+                      </li>  
+                
+                  <li class="nav-item ">
+                    <a href="cadastro-paciente.html" class="nav-link ml-4" style="font-size:20px;  color: #fff;">Pacientes</a>
+                </li>
+
+                  <li class="nav-item">
+                    <a href="prontuario.html" class="nav-link ml-4" style="font-size: 20px; color: #fff;">Prontuario</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="suporte.html" class="nav-link ml-4" style="font-size: 20px; color: #fff;"></i>Suporte</a>
+                  </li>
+
+                </ul>
+                  <a href="/index.html" class="btn btn-outline-light ml-md-auto align-content-center"><i class="fa-solid fa-right-from-bracket mr-md-2"></i>Sair</a>
+              </div>
+            </div>
+          </nav>
+      </header><!---Fim do cabeçalho-->
+       <!--Inicio Agenda Online-->  
+    <div class="container container-move">
+        <div class="card mb-3 container-md border-info" style="max-width: 50rem;">
+            <div class="card-body">
+                <h4 class="display-5 text-center card-header">Nova consulta</h4>
+                <form action="">
+                    <div class="form-row">
+                        <div class="col-6 mt-2">
+                            <label for="usuario">Nome do Paciente:</label>
+                            <input type="text" id="usuario" class="form-control ml-2 mr-2 bg-light border-info">
+                        </div>
+                        <div class="col-6 mt-2">
+                            <label for="usuario">CPF do paciente:</label>
+                            <input type="text" id="usuario" class="form-control ml-2 mr-2 bg-light border-info">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-6 mt-2">
+                            <label for="usuario">Nome do Dentista:</label>
+                            <input type="text" id="usuario" class="form-control ml-2 mr-2 bg-light border-info">
+                        </div>
+                        <div class="col-6 mt-2">
+                            <label for="usuario">CRM:</label>
+                            <input type="text" id="usuario" class="form-control ml-2 mr-2 bg-light border-info">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-12 mt-2">
+                            <label for="usuario">Tipo da consulta:</label>
+                            <input type="text" id="usuario" class="form-control ml-2 mr-2 bg-light border-info">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-6 mt-2"> 
+                            <label for="usuario">Data:</label>
+                            <input type="date" id="usuario" class="form-control form-control ml-2 mr-2 bg-light border-info">
+                        </div>
+
+                        <div class="col-6 mt-2">
+                           <label for="">Hora:</label><input type="time" id="usuario" class=" form-control form-control ml-2 bg-light border-info">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-12 mt-2">
+                            <a class="btn btn-teal btn-toolbar justify-content-center mt-3 mb-3" href="agenda.html">Salvar</a>
+
+
+                        </div>
+
+                    </div>
+                </form>    
+                   
+                </div>
+            </div>      
+      </div>
+    </div>    
+    
+</body>
+ <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+</html>
